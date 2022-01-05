@@ -1,6 +1,6 @@
 export const API = () => {
   const baseUrl =
-    process.env.REACT_APP_BASE_URL ||
+    process.env.REACT_APP_SERVER_URL ||
     "https://eruldumbsmerch.herokuapp.com/api/v1";
 
   const executeAPI = async (endpoint, config) => {
